@@ -1,0 +1,18 @@
+{
+    "learning_rate": 0.0005,
+    "weight_decay": 0.1,
+    "gradient_accumulation_steps": 8,
+    "batch_size": 128,
+    "context_length": 64,
+    "d": 256,
+    "log_steps": 100,
+    "eval_steps": 200,
+    "save_steps": 2000,
+    "use_relu": false,
+    "model_type": "linear",
+    "dataset": "roneneldan/TinyStories",
+    "tokenizer": "roneneldan/TinyStories-33M",
+    "prompt": "Once upon a",
+    "temperature": 0.5,
+    "output_dir": "/tmp/linear_decoder/"
+}

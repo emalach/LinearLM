@@ -1,0 +1,23 @@
+{
+    "learning_rate": 0.001,
+    "weight_decay": 0.1,
+    "gradient_accumulation_steps": 1,
+    "batch_size": 2048,
+    "context_length": 307,
+    "d": 128,
+    "log_steps": 100,
+    "eval_steps": 200,
+    "save_steps": 2000,
+    "use_relu": true,
+    "model_type": "linear",
+    "dataset": "product",
+    "tokenizer": "huggingface-course/code-search-net-tokenizer",
+    "prompt": "[BOS] 1 2 3 4 x 5 6 7 8",
+    "num-examples-train": 100000000,
+    "num-examples-valid": 1000,
+    "temperature": 0.1,
+    "joined_tokens": true,
+    "min_num": 1111,
+    "max_num": 10000,
+    "output_dir": "/tmp/linear_decoder/"
+}
