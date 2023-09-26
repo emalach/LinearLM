@@ -24,7 +24,7 @@ from torch_datasets.product import ProductDataset
 USE_CUDA = torch.cuda.is_available()
 
 parser = argparse.ArgumentParser(description='Linear Decoder')
-parser.add_argument('--conf', default='configs/config_prod_debug.json')
+parser.add_argument('--conf', default='configs/config_linear.json')
 args = parser.parse_args()
 
 with open(args.conf) as f:
